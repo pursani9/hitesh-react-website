@@ -352,8 +352,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Pune MH, India',
+      href: 'https://maps.app.goo.gl/HRdrW2tb9nNuHfj86',
     },
     {
       type: ContactType.Instagram,
@@ -373,8 +373,8 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/pursani9'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/5940109/hitesh-pursani'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/hitesh-pursani-7b78a915/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/pursani9/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/pursani9'},
 ];
