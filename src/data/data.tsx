@@ -78,9 +78,9 @@ export const heroData: Hero = {
         registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me training in <strong className="text-stone-100">Java</strong>,
+        plucking my <strong className="text-stone-100">Guitar</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Pune City</strong>.
       </p>
     </>
   ),
@@ -104,16 +104,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Hitesh Pursani, with 16 years' expertise in Java, Struts, Spring, SpringBoot, Hibernate, PL/SQL, excels in Banking, 
+  Telecom, Insurance, Healthcare, and R&D. Managed diverse projects with onsite presence.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Pune, MH, India', Icon: MapIcon},
+    {label: 'Age', text: '37', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Indian / Asian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Guitar, Music', Icon: SparklesIcon},
+    {label: 'Study', text: 'Barkatullah University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Accenture Ltd.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -129,12 +128,16 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
+        name: 'Marathi',
         level: 4,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Hindi',
+        level: 10,
+      },
+      {
+        name: 'German',
+        level: 1,
       },
     ],
   },
@@ -163,12 +166,20 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Java',
+        level: 8,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'SpringBoot',
+        level: 8,
+      },
+      {
+        name: 'Oracle',
+        level: 6,
+      },
+      {
+        name: 'Angular',
+        level: 2,
       },
     ],
   },
@@ -268,16 +279,12 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'May 2007',
+    location: 'Sadhu Vaswani College, Barkatullah University, Bhopal',
+    title: 'Bachelors of Computer Application',
+    content: <p>During my college experience, I gained academic knowledge, developed critical thinking and 
+      communication skills, honed time management and teamwork abilities,
+       and gained cultural awareness. These skills have been invaluable in shaping my personal and professional growth.</p>,
   },
 ];
 
@@ -340,8 +347,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'pursani9@gmail.com',
+      href: 'mailto:pursani9@gmail.com',
     },
     {
       type: ContactType.Location,
@@ -350,13 +357,13 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@hiteshpursani',
+      href: 'https://www.instagram.com/hiteshpursani/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'pursani9',
+      href: 'https://github.com/pursani9',
     },
   ],
 };
@@ -365,9 +372,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/pursani9'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/pursani9'},
 ];
