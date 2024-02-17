@@ -19,8 +19,8 @@ export default function Document() {
       <body className="bg-black">
         <Main />
         <NextScript />
+        <Analytics />
       </body>
-      <Analytics />
     </Html>
   );
 }
