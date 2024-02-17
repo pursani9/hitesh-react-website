@@ -14,7 +14,9 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@next/next/recommended",
-    "prettier"
+    "prettier",
+    "next",
+    "next/core-web-vitals"    
   ],
   "ignorePatterns": ["*/public", "*/node_modules/*", "*/.next/*", "*/dist/*"],
   "rules": {
@@ -49,7 +51,8 @@
     "sort-imports": "off",
     "jsx-a11y/no-onchange": "off",
     "jsx-a11y/no-autofocus": "off",
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "@next/next/no-page-custom-font": "off"
   },
   "settings": {
     "react": {
