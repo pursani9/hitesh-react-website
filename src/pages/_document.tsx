@@ -1,5 +1,6 @@
-import {Analytics} from '@vercel/analytics/react';
 import {Head, Html, Main, NextScript} from 'next/document';
+import {Analytics} from '@vercel/analytics/react';
+
 
 
 // next/document <Head /> vs next/head <Head />
