@@ -45,7 +45,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Hitesh Pursani',
-  description: "Example site built with Tim Baker's react resume template",
+  description: "Site built with Tim Baker's react resume template",
 };
 
 /**
@@ -104,7 +104,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hitesh Pursani, with 16 years' expertise in Java, Struts, Spring, SpringBoot, Hibernate, PL/SQL, excels in Banking, 
+  description: `Hitesh Pursani, with 16 years' expertise in Java, React, Typescript, Struts, Spring, SpringBoot, Hibernate, PL/SQL, excels in Banking, 
   Telecom, Insurance, Healthcare, and R&D. Managed diverse projects with onsite presence.`,
   aboutItems: [
     {label: 'Location', text: 'Pune, MH, India', Icon: MapIcon},
@@ -163,7 +163,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 7,
       },
       {
         name: 'Java',
@@ -179,7 +179,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Angular',
-        level: 2,
+        level: 4,
       },
     ],
   },
@@ -192,11 +192,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Flutter',
-        level: 4,
+        level: 2,
       },
       {
         name: 'Swift',
-        level: 3,
+        level: 1,
       },
     ],
   },
@@ -207,70 +207,46 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'ETL Developer',
+    description: 'Working for one of the biggest Insurance client to maintain and enhance the ETL Tool to maintain a reporting system using DataVault 2.0 Concepts.',
+    url: 'https://hitesh-pursani.vercel.app',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Java Full Stack Developer',
+    description: 'Employed as a full stack developer, proficient in utilizing Spring Boot for backend development and AngularJS for frontend tasks. Additionally, experienced in implementing Cassandra for database management and Hazelcast for caching purposes. Skilled in working with Docker containers and Kubernetes for efficient orchestration of applications.',
+    url: 'https://www.techmahindra.com',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Java and Struts Developer',
+    description: 'Engaged in dual roles as a UI Developer and a Struts backend developer, facilitating EJB calls for backend operations and managing data processing from the existing backend system. Led the transition of the UI framework from Struts 1 to Struts 2 while actively involved in UI enhancement, Struts, and EJB API integration.',
+    url: 'https://www.techmahindra.com',
+    image: porfolioImage2,
+  },
+  {
+    title: 'Production Support Analyst',
+    description: 'Employed as a Production Support Analyst at a leading APAC Investment Bank renowned for its research reports. Managed day-to-day operations encompassing 24x7 support and participated in numerous migrations and DR cutover activities. Additionally, had the privilege of traveling onsite to facilitate knowledge transfer sessions.',
+    url: 'https://www.tcs.com/',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Web Developer',
+    description: 'Participated in a development endeavor aimed at receiving a 270-request through HTTPS POST method, followed by ensuring HIPAA compliance. Subsequently, facilitated the conversion to a 271 response utilizing a Client Web Service within JCAPS (Enterprise Application Integration Tool).',
+    url: 'https://atos.net/en/',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Middleware Developer',
+    description: 'As it was an enhancement project, I focused on analyzing the existing defect flow, addressing defects, distributing various issues to the team, assisting in their resolution, and directly reporting progress to the client.',
+    url: 'https://atos.net/en/',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Frontend Developer',
+    description: 'The client sought to improve their current website by enhancing user-friendliness, delivering an exceptional user experience, and simplifying its complexity compared to its previous state.',
+    url: 'https://atos.net/en/',
     image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
@@ -290,24 +266,42 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'May 2021 - Present',
+    location: 'Accenture Ltd.',
+    title: 'Technical Manager',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Engaged in Safe Agile practices and utilized Java 17, spearheading a successful migration from Java 8 to Java 17 as part of the Eclipse Upgrade Project. Facilitated numerous Safe Agile Ceremonies and efficiently managed production tasks, earning high praise from the client. Proficiently worked with Java, xText, and xTend within the DataVault 2.0 environment on Oracle 19c..
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'January 2015 - April 2021',
+    location: 'Tech Mahindra',
+    title: 'Full Stack Developer (Associate Tech Specialist)',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Employed as a full stack developer and spearheaded a team of six resources, utilizing Scrum Agile methodologies as an individual contributor. Led migration efforts from Struts 1.0 to Struts 2.0 before transitioning to Responsive Web Design (RWD) with AngularJS. Contributed to the migration from Restful APIs to Spring Boot microservices. Additionally, gained valuable experience through direct client engagement in the USA for over two years.
+      </p>
+    ),
+  },
+  {
+    date: 'August 2012 - January 2015',
+    location: 'Tata Consultancy Services',
+    title: 'Production Support Analyst (I.T. Analyst)',
+    content: (
+      <p>
+        Employed in production support, specifically back-office support, for a leading investment bank in Asia renowned globally for its research reports. Responsibilities encompassed daily operational support and overseeing the 24x7 support roster. Managed team operations while addressing tickets and offering call support to front and middle office teams as needed.
+      </p>
+    ),
+  },
+  {
+    date: 'November 2007 - July 2012',
+    location: 'Syntel Ltd',
+    title: 'Analyst Programmer',
+    content: (
+      <p>
+        Commenced professional journey as a trainee, undergoing comprehensive training in Java and associated technologies. Primarily focused on Java 1.6 and UI technologies, particularly within the Struts framework. Earned accolades from diverse clients for consistently meeting deadlines, swiftly acquiring new technologies, and effectively implementing them. Engaged in research and development initiatives, actively participating in Request for Information and proposals, resulting in successful outcomes.
       </p>
     ),
   },
@@ -320,18 +314,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Miss Y',
+      text: 'Hitesh exhibits dedication and exceptional leadership abilities. Our collaboration with him on the XXXX Project showcased not only his technical proficiency but also his adept leadership skills. He consistently delivers on assigned tasks and goes the extra mile to assist the team in resolving issues, demonstrating both his extensive experience and commendable qualities.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Mr. X',
+      text: 'Hitesh embodies a rare combination of unwavering dedication and remarkable leadership acumen. Throughout our collaboration on the XXXX Project, he not only showcased his technical prowess but also demonstrated a natural flair for effective leadership. His consistent delivery on tasks, coupled with a proactive approach to supporting team members, sets him apart. Hitesh'+"'"+'s outstanding performance is a testament to his extensive experience and admirable qualities, making him a valued asset to any project.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Mr. Z',
+      text: 'I'+"'"+'ve had the pleasure of collaborating with Hitesh Pursani and can confidently say He excel in his role. He brings a unique blend of expertise and creativity to his work, consistently delivering impressive results. Hitesh Pursani is a natural leader who fosters collaboration and drives success. I highly recommend Hitesh for any project or role requiring top-notch talent.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
