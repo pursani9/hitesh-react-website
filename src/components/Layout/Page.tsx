@@ -13,6 +13,8 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
       <Head>
         <title>{title}</title>
         <meta content={description} name="description" />
+        <meta name="google-site-verification" content="3WMftArmHGYm5i9E_qeyPRrulCt_6gul3EM3TKCEWKE" />
+
 
         {/* several domains list the same content, make sure google knows we mean this one. */}
         <link href={`https://reactresume.com${pathname}`} key="canonical" rel="canonical" />
@@ -30,7 +32,6 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
-        <meta name="google-site-verification" content="3WMftArmHGYm5i9E_qeyPRrulCt_6gul3EM3TKCEWKE" />
       </Head>
       {children}
     </>
