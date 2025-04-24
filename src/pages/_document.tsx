@@ -10,11 +10,11 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
+        <meta name="google-site-verification" content="3WMftArmHGYm5i9E_qeyPRrulCt_6gul3EM3TKCEWKE" />
         {/* google translate breaks react:
           - https://github.com/facebook/react/issues/11538
           - https://bugs.chromium.org/p/chromium/issues/detail?id=872770 */}
         <meta content="notranslate" name="google" />
-        <meta name="google-site-verification" content="3WMftArmHGYm5i9E_qeyPRrulCt_6gul3EM3TKCEWKE" />
       </Head>
       <body className="bg-black">
         <Main />
