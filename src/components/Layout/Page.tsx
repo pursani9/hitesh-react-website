@@ -13,7 +13,6 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
       <Head>
         <title>{title}</title>
         <meta content={description} name="description" />
-        <meta name="google-site-verification" content="3WMftArmHGYm5i9E_qeyPRrulCt_6gul3EM3TKCEWKE" />
 
 
         {/* several domains list the same content, make sure google knows we mean this one. */}
