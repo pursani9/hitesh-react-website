@@ -14,6 +14,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <title>{title}</title>
         <meta content={description} name="description" />
 
+
         {/* several domains list the same content, make sure google knows we mean this one. */}
         <link href={`https://reactresume.com${pathname}`} key="canonical" rel="canonical" />
 
