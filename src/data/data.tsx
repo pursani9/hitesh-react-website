@@ -103,7 +103,7 @@ export const aboutData: About = {
   Telecom, Insurance, Healthcare, and R&D. Managed diverse projects with onsite presence.`,
   aboutItems: [
     {label: 'Location', text: 'Pune, MH, India', Icon: MapIcon},
-    {label: 'Age', text: '37', Icon: CalendarIcon},
+    {label: 'Age', text: '38', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian / Asian', Icon: FlagIcon},
     {label: 'Interests', text: 'Motorcycles, Guitar, Music', Icon: SparklesIcon},
     {label: 'Study', text: 'Barkatullah University', Icon: AcademicCapIcon},
