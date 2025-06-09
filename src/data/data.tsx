@@ -99,7 +99,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hitesh Pursani, with 16 years' expertise in Java, React, Typescript, Struts, Spring, SpringBoot, Hibernate, PL/SQL, excels in Banking, 
+  description: `Hitesh Pursani, with 17 years' expertise in Java, React, Typescript, Struts, Spring, SpringBoot, Hibernate, PL/SQL, excels in Banking, 
   Telecom, Insurance, Healthcare, and R&D. Managed diverse projects with onsite presence.`,
   aboutItems: [
     {label: 'Location', text: 'Pune, MH, India', Icon: MapIcon},
