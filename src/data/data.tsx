@@ -263,7 +263,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'May 2021 - Present',
     location: 'Accenture Ltd.',
-    title: 'Technical Manager',
+    title: 'Engineering Manager',
     content: (
       <p>
         Engaged in Safe Agile practices and utilized Java 17, spearheading a successful migration from Java 8 to Java 17 as part of the Eclipse Upgrade Project. Facilitated numerous Safe Agile Ceremonies and efficiently managed production tasks, earning high praise from the client. Proficiently worked with Java, xText, and xTend within the DataVault 2.0 environment on Oracle 19c..
