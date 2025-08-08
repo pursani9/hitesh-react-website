@@ -61,6 +61,9 @@
     "typescript": "5.3.2"
   },
   "resolutions": {
-    "autoprefixer": "10.4.5"
+    "autoprefixer": "10.4.19"
+  },
+  "engines": {
+  "node": ">=22.0.0"
   }
 }
